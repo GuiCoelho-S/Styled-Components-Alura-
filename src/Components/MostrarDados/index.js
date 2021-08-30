@@ -72,7 +72,7 @@ const MostrarDados = ({ dados, mudar }) => {
       </div>
       <div>
         <div>
-          <h2>{`Essas são as tecnologias que você se condiera bom:`}</h2>
+          <h2>{`Essas são as tecnologias que você se considera bom:`}</h2>
         </div>
       </div>
       <Language>
