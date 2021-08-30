@@ -5,4 +5,5 @@ import { Icon } from "../../UI/icon";
 const light = <Icon src={lightMode} alt="light Mode" />;
 const dark = <Icon src={darkMode} alt="dark Mode" />;
 
-export default ({theme}) => (theme ? dark : light ) 
+const SwitchTheme = ({ theme }) => (theme ? dark : light);
+export default SwitchTheme;
